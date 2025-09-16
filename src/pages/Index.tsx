@@ -5,7 +5,6 @@ import { SimulationModules } from "@/components/SimulationModules";
 import { QuizAssessment } from "@/components/QuizAssessment";
 import { RegionSelector } from "@/components/RegionSelector";
 import { EmergencyResources } from "@/components/EmergencyResources";
-import { TechStack } from "@/components/TechStack";
 import { Footer } from "@/components/Footer";
 
 const Index = () => {
@@ -19,7 +18,6 @@ const Index = () => {
         <QuizAssessment />
         <RegionSelector />
         <EmergencyResources />
-        <TechStack />
       </main>
       <Footer />
     </div>
