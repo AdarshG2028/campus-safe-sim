@@ -43,10 +43,10 @@ export const LoginSelector = () => {
                 Administrative dashboard for safety management.
               </p>
               <Button 
-                onClick={() => navigate('/admin-dashboard')}
+                onClick={() => navigate('/admin-login')}
                 className="w-full bg-white text-primary hover:bg-white/95 transition-all duration-300 text-lg py-4 font-semibold shadow-lg"
               >
-                Admin Dashboard
+                Admin Login
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Button>
             </div>
@@ -63,10 +63,10 @@ export const LoginSelector = () => {
                 Your personal safety training dashboard.
               </p>
               <Button 
-                onClick={() => navigate('/student-dashboard')}
+                onClick={() => navigate('/student-login')}
                 className="w-full bg-white text-primary hover:bg-white/95 transition-all duration-300 text-lg py-4 font-semibold shadow-lg"
               >
-                Student Portal
+                Student Login
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Button>
             </div>
